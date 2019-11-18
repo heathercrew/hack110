@@ -1,0 +1,24 @@
+.container1 {
+    display: flex;
+    background-color: grey;
+    width: 30%;
+    margin: 10px;
+  }
+  
+  .container2 {
+    display: flex;
+    background-color: pink;
+    width: 30%;
+     margin: 10px;
+  }
+  
+.item {
+    background-color: rgb(255, 255, 159);
+    height: 120px;
+    width: 20%;
+    border: 3px solid purple;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+    margin: 1%;
+}

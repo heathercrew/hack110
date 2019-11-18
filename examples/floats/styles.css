@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    margin: 5px;
+    height: 25%;
+    width: 50%;
+    border: 5px solid black;
+    background-color: blueviolet;
+}
+
+div {
+    border: 5px solid pink;
+    height: 50%;
+    width: 20%;
+    background-color: aqua;
+}
+
+/* This selects divs that are children of "fill" */
+.fill div {
+    height: 100%;
+    width: 33.3%;
+}
+
+/* add floats here */
+div {
+    Float: left;
+}
+
+.right {
+    Float: right;
+}

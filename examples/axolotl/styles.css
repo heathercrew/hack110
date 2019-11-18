@@ -1,0 +1,14 @@
+body {
+    background: lightblue;
+}
+
+img {
+    width: 20%;
+}
+
+.back {
+    font-size: 25pt;
+
+    /* This gets rid of the underline in an <a> element */
+    text-decoration: none;
+}
